@@ -1,8 +1,33 @@
- .navigation{
+footer{
+        background-color: pink;
+        text-align: center;
+        font-style: italic;
+        clear:both;
+}    
+h1{
+    text-align: center;
+}
+table, th, td {
+    border: 1px solid black;
+    padding: 3px;
+    background-color: azure;
+    width: 300px;
+    
+}
+th{
+    text-align: center;
+}
+tr{
+    text-align: center;   
+}
+p{
+    
+}
+.navigation{
         background-color: pink;
         padding-left: 10px;
-    }
-    .navigation a{
+}
+.navigation a{
         float: right;
         padding-right: 20px;
         padding-top: 10px;
@@ -11,16 +36,40 @@
         color: darkslategrey;
         font-style: oblique;
         font-weight: bold;
-    }       
-    .navigation a:hover{
+}       
+.navigation a:hover{
         color: navajowhite;
-    }
+}
+.contain{
+    padding-left: 20px;
+    padding-right: 20px;
+}
 
-    img{
-        height: 50px;
-    }
-    footer{
-        background-color: pink;
-        text-align: center;
-        font-style: italic;
-    }       
+.block-contain{
+    padding: 20px;
+}
+#left-block{
+   float: left;
+    width: 50%;
+}
+#right-block{
+    float: left;
+    width: 50%;
+}
+#myPhoto{
+    border-radius: 50%;
+    height: 150px;
+    padding-bottom: 10px;
+}
+#sunflower{
+    height: 150px;
+}
+.logo{
+    height: 50px;
+}
+.social{
+    height:50px;
+    padding-bottom: 20px;
+    clear:both;
+    padding-left: 20px;
+}
